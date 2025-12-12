@@ -35,7 +35,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 bg-primary d-none d-lg-block">
-                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                <a href="/" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                     <img class="img-fluid rounded p-1" src="assets/img/logo/logo-aranda-horizontal.png" alt="">
                 </a>
             </div>
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
-                    <a href="index.html" class="navbar-brand d-block d-lg-none w-50 h-50">
+                    <a href="/" class="navbar-brand d-block d-lg-none w-50 h-50">
                         <img class="img-fluid rounded p-1" src="assets/img/logo/logo-aranda-horizontal-movil.png" alt="">
                     </a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -85,14 +85,14 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Nuestra Firma</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="/por-que-elegirnos" class="dropdown-item">¿Por qué elegirnos?</a>
-                                    <a href="team.html" class="dropdown-item">Staff de Profesionales</a>
+                                    <a href="/professional-staff" class="dropdown-item">Staff de Profesionales</a>
                                 </div>
                             </div>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Servicios</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="service.html" class="dropdown-item">Asesoramiento Legal</a>
-                                    <a href="service.html" class="dropdown-item">Asesoramiento Contable</a>
+                                    <a href="/legal-advice" class="dropdown-item">Asesoramiento Legal</a>
+                                    <a href="/business-advice" class="dropdown-item">Asesoramiento Contable</a>
                                 </div>
                             </div>
                             <a href="/contacto" class="nav-item nav-link">Contacto</a>
