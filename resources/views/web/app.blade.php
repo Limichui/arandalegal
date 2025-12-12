@@ -85,7 +85,7 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Nuestra Firma</a>
                                 <div class="dropdown-menu rounded-0 m-0">
                                     <a href="/por-que-elegirnos" class="dropdown-item">¿Por qué elegirnos?</a>
-                                    <a href="/professional-staff" class="dropdown-item">Staff de Profesionales</a>
+                                    <a href="/staff-de-profesionales" class="dropdown-item">Staff de Profesionales</a>
                                 </div>
                             </div>
                             <div class="nav-item dropdown">

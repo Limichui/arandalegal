@@ -10,7 +10,7 @@
                     <img class="position-absolute w-100 h-100" src="assets/img/carousel-1.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">El mejor Estudio Jurídoco</h4>
+                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">El mejor Estudio Jurídico</h4>
                             <h3 class="display-2 text-capitalize text-white mb-4">Nuestra lucha es por tu justicia.</h3>
                             <a class="btn btn-primary py-3 px-5 mt-2" href="#">Obtenga una cita</a>
                         </div>
@@ -53,7 +53,7 @@
                     <h6 class="text-uppercase">Conoce más sobre nosotros</h6>
                     <h1 class="mb-4">Servicios Legales de Confianza y Alta Eficiencia</h1>
                     <p>Ofrecemos un servicio legal sólido y profesional, comprometido con brindar soluciones claras y oportunas. Nuestro equipo trabaja con dedicación para garantizar atención personalizada y resultados efectivos en cada caso.</p>
-                    <a href="" class="btn btn-primary mt-2">Leer más</a>
+                    <a href="/por-que-elegirnos" class="btn btn-primary mt-2">Leer más</a>
                 </div>
             </div>
         </div>
@@ -204,7 +204,7 @@
                             </div>
                             <p class="mb-3 px-4">Socio Principal</p>
                             <div class="team-img position-relative">
-                                <img class="img-fluid" src="assets/img/team-1.jpg" alt="">
+                                <img class="img-fluid" src="assets/img/team/team-1.jpg" alt="">
                                 <div class="team-social">
                                     <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fa-solid fa-info"></i></a>
                                     <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -217,7 +217,7 @@
                             </div>
                             <p class="mb-3 px-4">Abogado</p>
                             <div class="team-img position-relative">
-                                <img class="img-fluid" src="assets/img/team-2.jpg" alt="">
+                                <img class="img-fluid" src="assets/img/team/team-2.jpg" alt="">
                                 <div class="team-social">
                                     <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fa-solid fa-info"></i></a>
                                     <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -230,7 +230,7 @@
                             </div>
                             <p class="mb-3 px-4">Abogado</p>
                             <div class="team-img position-relative">
-                                <img class="img-fluid" src="assets/img/team-3.jpg" alt="">
+                                <img class="img-fluid" src="assets/img/team/team-3.jpg" alt="">
                                 <div class="team-social">
                                     <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fa-solid fa-info"></i></a>
                                     <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -243,7 +243,20 @@
                             </div>
                             <p class="mb-3 px-4">Asistente Legal</p>
                             <div class="team-img position-relative">
-                                <img class="img-fluid" src="assets/img/team-4.jpg" alt="">
+                                <img class="img-fluid" src="assets/img/team/team-4.jpg" alt="">
+                                <div class="team-social">
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fa-solid fa-info"></i></a>
+                                    <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item text-center bg-white rounded overflow-hidden pt-4">
+                            <div style="height: 56px;">
+                                <h5 class="mb-2 px-4">Marco Antonio Aranda Carrasco</h5>
+                            </div>
+                            <p class="mb-3 px-4">Asesor Empresarial</p>
+                            <div class="team-img position-relative">
+                                <img class="img-fluid" src="assets/img/team/team-5.jpg" alt="">
                                 <div class="team-social">
                                     <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fa-solid fa-info"></i></a>
                                     <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
