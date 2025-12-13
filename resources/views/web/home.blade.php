@@ -68,7 +68,7 @@
                     <h6 class="text-uppercase">Nuestro Trabajo Jurídico</h6>
                     <h1 class="mb-4">Nuestras Áreas de Especialización</h1>
                     <p>Contamos con diversas áreas de especialización orientadas a ofrecer soluciones legales integrales. Nuestro equipo trabaja con profesionalismo y compromiso para atender cada caso con dedicación y precisión.</p>
-                    <a href="" class="btn btn-primary mt-2">Ver más servicios</a>
+                    <a href="/asesoramiento-legal" class="btn btn-primary mt-2">Ver más servicios</a>
                 </div>
                 <div class="col-lg-9 pt-5 pt-lg-0">
                     <div class="bg-primary rounded" style="height: 200px;"></div>
@@ -79,7 +79,7 @@
                                 <h5 class="mb-4 px-4" style="height: 40px;">Derecho de familia</h5>
                             </div>
                             <div class="m-0">
-                                <a href="" class="btn btn-primary mt-2">Leer más</a>
+                                <a href="" class="btn btn-primary mt-2 mb-2">Leer más</a>
                             </div>
                         </div>
                         <div class="d-flex flex-column align-items-center text-center bg-white rounded especialidad-card" style="border: 1px solid #B49C73;">
@@ -90,7 +90,7 @@
                             </div>
                             
                             <div class="m-0">
-                                <a href="" class="btn btn-primary mt-2">Leer más</a>
+                                <a href="" class="btn btn-primary mt-2 mb-2">Leer más</a>
                             </div>
                         </div>
                         <div class="d-flex flex-column align-items-center text-center bg-white rounded especialidad-card" style="border: 1px solid #B49C73;">
@@ -101,7 +101,7 @@
                             </div>
                             
                             <div class="m-0">
-                                <a href="" class="btn btn-primary mt-2">Leer más</a>
+                                <a href="" class="btn btn-primary mt-2 mb-2">Leer más</a>
                             </div>
                         </div>
                         <div class="d-flex flex-column align-items-center text-center bg-white rounded especialidad-card" style="border: 1px solid #B49C73;">
@@ -112,7 +112,7 @@
                             </div>
                             
                             <div class="m-0">
-                                <a href="" class="btn btn-primary mt-2">Leer más</a>
+                                <a href="" class="btn btn-primary mt-2 mb-2">Leer más</a>
                             </div>
                         </div>
                         <div class="d-flex flex-column align-items-center text-center bg-white rounded especialidad-card" style="border: 1px solid #B49C73;">
@@ -122,7 +122,7 @@
                                 <h5 class="mb-4 px-4" style="height: 40px;">Auditoría legal empresarial</h5>
                             </div>
                             <div class="m-0">
-                                <a href="" class="btn btn-primary mt-2">Leer más</a>
+                                <a href="" class="btn btn-primary mt-2 mb-2">Leer más</a>
                             </div>
                         </div>
                         <div class="d-flex flex-column align-items-center text-center bg-white rounded especialidad-card" style="border: 1px solid #B49C73;">
@@ -131,7 +131,7 @@
                                 <h5 class="mb-4 px-4" style="height: 40px;">Propiedad intelectual</h5>
                             </div>
                             <div class="m-0">
-                                <a href="" class="btn btn-primary mt-2">Leer más</a>
+                                <a href="" class="btn btn-primary mt-2 mb-2">Leer más</a>
                             </div>
                         </div>
                     </div>

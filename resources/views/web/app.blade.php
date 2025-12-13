@@ -91,8 +91,8 @@
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Servicios</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="/legal-advice" class="dropdown-item">Asesoramiento Legal</a>
-                                    <a href="/business-advice" class="dropdown-item">Asesoramiento Contable</a>
+                                    <a href="/asesoramiento-legal" class="dropdown-item">Asesoramiento Legal</a>
+                                    <a href="/asesoramiento-comercial" class="dropdown-item">Asesoramiento Contable</a>
                                 </div>
                             </div>
                             <a href="/contacto" class="nav-item nav-link">Contacto</a>
