@@ -29,3 +29,7 @@ Route::get('/asesoramiento-legal', function () {
 Route::get('/asesoramiento-comercial', function () {
     return view('web.business-advice');
 });
+
+Route::get('/perfil-profesional', function () {
+    return view('web.professional-profile');
+});

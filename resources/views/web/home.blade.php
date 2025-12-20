@@ -1,7 +1,6 @@
 @extends('web.app')
 
 @section('content')
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5 pb-5">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -177,7 +176,7 @@
                                 <h5 class="text-secondary m-0">03</h5>
                             </div>
                             <div class="ml-4">
-                                <h5>Resultados que mereces</h5>
+                                <h5>Soluciones legales efectivas</h5>
                                 <p class="m-0">Nos enfocamos en obtener soluciones justas y efectivas, defendiendo tus derechos con compromiso y buscando siempre el mejor resultado posible.</p>
                             </div>
                         </div>

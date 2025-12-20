@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Aranda & Asociados</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Aranda & Asociados, Estudio Jurídico, Abogados, Bolivia, abogados Bolivia, asesoría legal, derecho civil, derecho penal, derecho laboral, derecho de familia, adopciones, auditoría legal, derecho fiscal, derecho tributario, propiedad intelectual, asesoramiento corporativo, abogados Latinoamérica" name="keywords">
+    <meta content="Aranda & Asociados, arandalegal, Estudio Jurídico, Abogados, Bolivia, abogados Bolivia, asesoría legal, derecho civil, derecho penal, derecho laboral, derecho de familia, adopciones, auditoría legal, derecho fiscal, derecho tributario, propiedad intelectual, asesoramiento corporativo, abogados Latinoamérica" name="keywords">
     <meta content="Brindamos servicios legales integrales: trámites legales, derecho de familia y penal, materia civil, laboral, fiscal y tributaria, adopciones, auditoría legal y asesoría corporativa. Profesionalismo y atención personalizada." name="description">
     <meta name="author" content="contatodigital.org">
 
