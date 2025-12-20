@@ -9941,8 +9941,8 @@ h4, h5, h6 {
 
 
 
-.bg-page-header1 {
-  background: linear-gradient(rgba(55, 55, 63, 0.7), rgba(55, 55, 63, 0.7)), url(../img/carousel-1.jpg), no-repeat center center;
+.bg-page-profile-header {
+  background: linear-gradient(rgba(55, 55, 63, 0.7), rgba(55, 55, 63, 0.7)), url(../img/bg-profile.jpg), no-repeat center center;
   background-size: cover;
 }
 /*
@@ -9983,7 +9983,7 @@ h4, h5, h6 {
         display: block;   /* asegura que se comporte como bloque */
     }
     .display-4 {
-        font-size: 1.8rem; /* texto más compacto en móviles */
+        font-size: 2rem; /* texto más compacto en móviles */
         margin-top: 1rem;
     }
 }
