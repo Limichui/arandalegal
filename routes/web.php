@@ -1,34 +1,19 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-/*
-Route::get('/', function () {
-    return view('welcome');
-});
-*/
-Route::get('/', function () {
-    return view('web.home');
-});
+use App\Http\Controllers\Web\NavbarController;
 
-Route::get('/contacto', function () {
-    return view('web.contact');
-});
 
-Route::get('/por-que-elegirnos', function () {
-    return view('web.why-choose-us');
-});
+Route::get('/', [NavbarController::class, 'showPage'])->name('home');
 
-Route::get('/staff-de-profesionales', function () {
-    return view('web.professional-staff');
-});
+Route::get('/por-que-elegirnos', [NavbarController::class, 'showPage'])->name('why-choose-us');
+Route::get('/staff-de-profesionales', [NavbarController::class, 'showPage'])->name('professional-staff');
 
-Route::get('/asesoramiento-legal', function () {
-    return view('web.legal-advice');
-});
+Route::get('/asesoramiento-legal', [NavbarController::class, 'showPage'])->name('legal-advice');
+Route::get('/asesoramiento-comercial', [NavbarController::class, 'showPage'])->name('business-advice');
 
-Route::get('/asesoramiento-comercial', function () {
-    return view('web.business-advice');
-});
+Route::get('/contacto', [NavbarController::class, 'showPage'])->name('contact');
+
 
 Route::get('/perfil-profesional', function () {
     return view('web.professional-profile');

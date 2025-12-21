@@ -25,7 +25,7 @@
     <!-- Profile Section Start -->
     <div class="container-fluid">
 
-        <div class="container py-5">
+        <div class="container pt-5 pb-2">
             <div class="row">
                 <!-- Experiencia -->
                 <div class="col-12 mb-0">
@@ -34,7 +34,7 @@
                     </div>
                     <div class="justify-content-center">
                         <div class="col-md-12">
-                            <p class="lead text-justify">Carlos Daniel Gallinate Montecinos, es actualmente abogado en la sociedad de responsabilidad limitada denominada como “Aranda y Asociados Estudio Jurídico SRL”. Inicio sus practicas como pasante o procurador a partir de la gestión 2016 en estudios jurídicos. Por otro lado, este ejercicio como abogado registrado en el RPA (Registro Publico de la Abogacía) a partir del año 2018 en una serie de estudios jurídicos. Así mismo es especialista en materia de Derecho civil, familiar, laboral y derechos reales, también asesoro técnica y jurídicamente a empresas nacionales como extranjeras en las materias referidas lineas arriba ademas de haber participado en la elaboración de su constitución así como también de sus modificaciones.</p>
+                            <p class="text-justify">Carlos Daniel Gallinate Montecinos, es actualmente abogado en la sociedad de responsabilidad limitada denominada como “Aranda y Asociados Estudio Jurídico SRL”. Inicio sus practicas como pasante o procurador a partir de la gestión 2016 en estudios jurídicos. Por otro lado, este ejercicio como abogado registrado en el RPA (Registro Publico de la Abogacía) a partir del año 2018 en una serie de estudios jurídicos. Así mismo es especialista en materia de Derecho civil, familiar, laboral y derechos reales, también asesoro técnica y jurídicamente a empresas nacionales como extranjeras en las materias referidas lineas arriba ademas de haber participado en la elaboración de su constitución así como también de sus modificaciones.</p>
                         </div>
                     </div>
                 </div>
@@ -43,11 +43,11 @@
         <div class="container py-2">
             <div class="row">
                 <!-- Formación académica -->
-                <div class="col-md-6 mb-0 mb-md-0">
+                <div class="col-md-6 mb-0 mb-md-0 pb-3">
                     <div class="text-center pb-2">
                         <h1 class="mb-4">Formación Académica</h1>
                     </div>
-                    <ul class="lead text-justify">
+                    <ul class="text-justify">
                         <li>Titulado de la Carrera de Derecho (21 de marzo de 2018) de la Universidad de Aquino Bolivia “UDABOL” de la ciudad de La Paz.</li>
                         <li>Diplomado en Derecho Procesal Penal - Universidad de Aquino - Bolivia “UDABOL”.</li>
                         <li>Diplomado en el Código Procesal Civil y en el Código de las Familias y del Proceso Familiar - Universidad Mayor de San Andrés “UMSA”.</li>
@@ -60,7 +60,7 @@
                         <div class="text-center pb-2">
                             <h1 class="mb-4">Área de Práctica</h1>
                         </div>
-                        <ul class="lead text-justify">
+                        <ul class="text-justify">
                             <li>Derecho Laboral</li>
                             <li>Derecho Civil</li>
                             <li>Derechos Reales</li>
@@ -70,10 +70,10 @@
                     </div>
                     <!-- Idiomas -->
                     <div class="col-12">
-                        <div class="text-center pb-2">
+                        <div class="text-center pt-3 pb-2">
                             <h1 class="mb-4">Idiomas</h1>
                         </div>
-                        <ul class="lead text-justify">
+                        <ul class="text-justify">
                             <li>Español</li>
                             <li>Ingles</li>
                         </ul>

@@ -21,5 +21,9 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        // 2. Aquí agregas la llamada a tu nuevo seeder
+        $this->call(NavbarLinksSeeder::class);
+
     }
 }

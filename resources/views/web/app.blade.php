@@ -71,35 +71,7 @@
                         </div>
                     </div>
                 </div>
-                <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
-                    <a href="/" class="navbar-brand d-block d-lg-none w-50 h-50">
-                        <img class="img-fluid rounded p-1" src="assets/img/logo/logo-aranda-horizontal-movil.png" alt="">
-                    </a>
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav mr-auto py-0">
-                            <a href="/" class="nav-item nav-link active">Inicio</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Nuestra Firma</a>
-                                <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="/por-que-elegirnos" class="dropdown-item">¿Por qué elegirnos?</a>
-                                    <a href="/staff-de-profesionales" class="dropdown-item">Staff de Profesionales</a>
-                                </div>
-                            </div>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Servicios</a>
-                                <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="/asesoramiento-legal" class="dropdown-item">Asesoramiento Legal</a>
-                                    <a href="/asesoramiento-comercial" class="dropdown-item">Asesoramiento Contable</a>
-                                </div>
-                            </div>
-                            <a href="/contacto" class="nav-item nav-link">Contacto</a>
-                        </div>
-                        <a href="" class="btn btn-primary mr-3 d-none d-lg-block">Obtenga una cotización</a>
-                    </div>
-                </nav>
+                @include('web.partials.navbar')
             </div>
         </div>
     </div>
@@ -138,12 +110,12 @@
             <div class="col-lg-4 col-md-6 mb-5">
                 <h4 class="font-weight-semi-bold text-primary mb-4">Enlaces Populares</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Por qué elegirnos</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Staf de Profesionales</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Asesoramiento Legal</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Asesoramiento Contable</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contacto</a>
+                    <a class="text-white mb-2" href="/"><i class="fa fa-angle-right mr-2"></i>Inicio</a>
+                    <a class="text-white mb-2" href="/por-que-elegirnos"><i class="fa fa-angle-right mr-2"></i>Por qué elegirnos</a>
+                    <a class="text-white mb-2" href="/staff-de-profesionales"><i class="fa fa-angle-right mr-2"></i>Staff de Profesionales</a>
+                    <a class="text-white mb-2" href="/asesoramiento-legal"><i class="fa fa-angle-right mr-2"></i>Asesoramiento Legal</a>
+                    <a class="text-white mb-2" href="/asesoramiento-comercial"><i class="fa fa-angle-right mr-2"></i>Asesoramiento Contable</a>
+                    <a class="text-white" href="/contacto"><i class="fa fa-angle-right mr-2"></i>Contacto</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
