@@ -3,20 +3,32 @@
 namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
-use App\Models\web\NavbarLink;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
 class NavbarController extends Controller
 {
     public function showPage()
     {
-        // 1. Lógica del Navbar (Centralizada)
-        $links = NavbarLink::whereNull('parent')->orderBy('order')->get(); // Links principales
-        $dropdowns = NavbarLink::whereNotNull('parent')->orderBy('order')->get()->groupBy('parent'); // Links agrupados por dropdown
-
-        // 2. Diccionario de rutas -> vistas
-        // La clave es el ->name() de la ruta, el valor es el archivo .blade.php
+        // 1. Obtener el idioma actual (ej. 'es' o 'en')
+        $locale = app()->getLocale();
+        // 2. Lógica del Navbar con Traducciones
+        $links = DB::table('navbar_links')
+                ->join('navbar_link_translations', 'navbar_links.id', '=', 'navbar_link_translations.navbar_link_id')
+                ->select('navbar_links.id', 'navbar_links.url', 'navbar_links.parent', 'navbar_links.order', 'navbar_link_translations.title')
+                ->where('parent', 0)
+                ->where('locale', $locale)
+                ->orderBy('order')
+                ->get();
+        $dropdowns = DB::table('navbar_links')
+                ->join('navbar_link_translations', 'navbar_links.id', '=', 'navbar_link_translations.navbar_link_id')
+                ->select('navbar_link_translations.id', 'navbar_link_translations.navbar_link_id', 'navbar_links.url', 'navbar_links.parent', 'navbar_links.order', 'navbar_link_translations.title')
+                ->whereNot('parent', 0)
+                ->where('locale', $locale)
+                ->orderBy('order')
+                ->get();
+        // 3. Diccionario de rutas -> vistas
         $views = [
             'home'               => 'web.home',
             'why-choose-us'      => 'web.why-choose-us',
@@ -26,13 +38,9 @@ class NavbarController extends Controller
             'contact'            => 'web.contact',
         ];
 
-        // 3. Obtener el nombre de la ruta actual
         $currentRoute = Route::currentRouteName();
-
-        // 4. Seleccionar la vista (y una por defecto por seguridad)
         $view = $views[$currentRoute] ?? 'web.home';
 
         return view($view, compact('links', 'dropdowns'));
     }
-    
 }

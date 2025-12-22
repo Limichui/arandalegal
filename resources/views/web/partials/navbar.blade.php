@@ -5,15 +5,18 @@
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav mr-auto py-0">
             @foreach($links as $link)
-                @if(isset($dropdowns[$link->title]))
+                @if($link->url === '#')
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ $link->title }}</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            @foreach($dropdowns[$link->title] as $item)
-                                <a href="{{ $item->url }}" class="dropdown-item">{{ $item->title }}</a>
+                            @foreach($dropdowns as $item)
+                                @if($item->parent == $link->id)
+                                    <a href="{{ $item->url }}" class="dropdown-item">{{ $item->title }}</a>
+                                @endif
                             @endforeach
                         </div>
                     </div>
@@ -22,7 +25,9 @@
                 @endif
             @endforeach
         </div>
-        <a href="" class="btn btn-primary mr-3 d-none d-lg-block">Obtenga una cotización</a>
+
+
+
     </div>
 </nav>
 

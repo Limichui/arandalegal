@@ -14,7 +14,6 @@ Route::get('/asesoramiento-comercial', [NavbarController::class, 'showPage'])->n
 
 Route::get('/contacto', [NavbarController::class, 'showPage'])->name('contact');
 
-
 Route::get('/perfil-profesional', function () {
     return view('web.professional-profile');
 });
