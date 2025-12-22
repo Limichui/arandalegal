@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Web\NavbarController;
+use Illuminate\Support\Facades\App; 
+use Illuminate\Support\Facades\Session;
 
 
 Route::get('/', [NavbarController::class, 'showPage'])->name('home');
@@ -14,6 +16,16 @@ Route::get('/asesoramiento-comercial', [NavbarController::class, 'showPage'])->n
 
 Route::get('/contacto', [NavbarController::class, 'showPage'])->name('contact');
 
+
+
 Route::get('/perfil-profesional', function () {
     return view('web.professional-profile');
 });
+
+Route::get('lang/{locale}', function ($locale) {
+    if (in_array($locale, ['es', 'en'])) {
+        session(['app_locale' => $locale]);
+    }
+    //return redirect()->back();
+    return back(302);
+})->name('lang.switch');

@@ -5,7 +5,6 @@
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
         <div class="navbar-nav mr-auto py-0">
             @foreach($links as $link)
@@ -26,8 +25,19 @@
             @endforeach
         </div>
 
-
-
+        <!-- Selector de idioma -->
+        <div class="navbar-nav ml-auto">
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-uppercase" href="#" id="languageDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{ app()->getLocale() }}
+                </a>
+                <div class="dropdown-menu dropdown-menu-right rounded-0" aria-labelledby="languageDropdown">
+                    <a class="dropdown-item" href="{{ route('lang.switch', 'es') }}" rel="nofollow">Español</a>
+                    <a class="dropdown-item" href="{{ route('lang.switch', 'en') }}" rel="nofollow">English</a>
+                </div>
+            </div>
+        </div>
     </div>
 </nav>
 
