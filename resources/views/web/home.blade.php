@@ -336,6 +336,4 @@
         </div>
     </div>
     <!-- Testimonial End -->
-
 @endsection
-    

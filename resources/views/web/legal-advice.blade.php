@@ -1,7 +1,7 @@
 @extends('web.app')
 
 @section('content')
-<!-- Page Header Start -->
+    <!-- Page Header Start -->
     <div class="container-fluid bg-page-header" style="margin-bottom: 90px;">
         <div class="container">
             <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
@@ -11,7 +11,7 @@
     </div>
     <!-- Page Header End -->
 
-<!-- Services Start -->
+    <!-- Services Start -->
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center pb-2">

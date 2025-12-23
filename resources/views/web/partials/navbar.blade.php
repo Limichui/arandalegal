@@ -26,17 +26,16 @@
         </div>
 
         <!-- Selector de idioma -->
-        <div class="navbar-nav ml-auto">
-            <div class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-uppercase" href="#" id="languageDropdown" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {{ app()->getLocale() }}
-                </a>
-                <div class="dropdown-menu dropdown-menu-right rounded-0" aria-labelledby="languageDropdown">
-                    <a class="dropdown-item" href="{{ route('lang.switch', 'es') }}" rel="nofollow">Español</a>
-                    <a class="dropdown-item" href="{{ route('lang.switch', 'en') }}" rel="nofollow">English</a>
-                </div>
-            </div>
+        <div class="d-flex align-items-center ml-auto" style="gap: 10px;">
+            <small class="text-uppercase font-weight-bold {{ app()->getLocale() == 'es' ? 'text-dark' : 'text-muted' }}">ES</small>
+            <a href="{{ route('lang.switch', app()->getLocale() == 'es' ? 'en' : 'es') }}" 
+            class="position-relative d-inline-block" 
+            style="width: 40px; height: 20px; background: #e9ecef; border-radius: 20px; border: 1px solid #dee2e6;">
+                <span class="position-absolute shadow-sm" 
+                    style="width: 16px; height: 16px; background: white; border-radius: 50%; top: 1px; {{ app()->getLocale() == 'es' ? 'left: 2px;' : 'right: 2px;' }} transition: 0.3s;">
+                </span>
+            </a>
+            <small class="text-uppercase font-weight-bold {{ app()->getLocale() == 'en' ? 'text-dark' : 'text-muted' }}">EN</small>
         </div>
     </div>
 </nav>
