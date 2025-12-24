@@ -17,11 +17,14 @@ Route::get('/asesoramiento-comercial', [NavbarController::class, 'showPage'])->n
 Route::get('/contacto', [NavbarController::class, 'showPage'])->name('contact');
 
 
+Route::get('/perfil-profesional', [NavbarController::class, 'showPage'])->name('professional-profile');
 
+/*
 Route::get('/perfil-profesional', function () {
     return view('web.professional-profile');
 });
-
+*/
+// Cambiar idioma
 Route::get('lang/{locale}', function ($locale) {
     if (in_array($locale, ['es', 'en'])) {
         session(['app_locale' => $locale]);

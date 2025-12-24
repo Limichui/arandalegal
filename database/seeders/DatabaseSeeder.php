@@ -16,14 +16,17 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // User::factory(10)->create();
-
+        // 1. Creación de usuario
         User::factory()->create([
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
 
-        // 2. Aquí agregas la llamada a tu nuevo seeder
+        // 2. Aquí agregas la llamada de seeder NavbarLinksSeeder
         $this->call(NavbarLinksSeeder::class);
+
+        // 3. Aquí agregas la llamada del seeder FooterContentSeeder
+        $this->call(FooterContentSeeder::class);
 
     }
 }

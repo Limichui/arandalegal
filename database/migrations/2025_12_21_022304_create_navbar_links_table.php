@@ -16,7 +16,7 @@ return new class extends Migration
             $table->id();
             // $table->string('title');       // Texto del enlace
             $table->string('url');         // Ruta o URL
-            $table->string('parent')->nullable(); // Para agrupar en dropdowns
+            $table->integer('parent')->default(0); // Para agrupar en dropdowns
             $table->integer('order')->default(0); // Orden de aparición
             $table->timestamps();
 

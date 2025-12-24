@@ -36,6 +36,7 @@ class NavbarController extends Controller
             'legal-advice'       => 'web.legal-advice',
             'business-advice'    => 'web.business-advice',
             'contact'            => 'web.contact',
+            'professional-profile'=> 'web.professional-profile',
         ];
 
         $currentRoute = Route::currentRouteName();
